@@ -1,0 +1,51 @@
+.firstdiv{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+	color:#fff;
+	font-size:30px;
+
+}
+.seconddiv{
+	width:600px;
+	height:600px;
+/*	background-color:orange;*/
+
+/*    background-image:url(./../img/cover/bg1.jpg);*/
+    background:url(./../img/cover/bg1.jpg.jpg);
+/*    background-repeat:no-repeat;*/
+/*    background-repeat:repeat;*/
+/*    background-repeat:repreat-x;*/
+    background-repeat:repeat-y;
+    background-position:center;
+
+    border:3px solid black;
+}
+
+.thirddiv{
+
+	width:300px;
+	height:300px;
+
+/*	background-image:linear-gradient(red,orange);*/
+	background:linear-gradient(
+	            60deg,
+	            red,
+	            yellow,
+	            green);
+
+
+	border:2px solid red;
+}
+
+.fourthdiv{
+	width:300px;
+	height:300px;
+	background-image:linear-gradient(47deg,rgba(179, 85, 193, 0.6),rgba(88, 152, 177, 0.4)) , url(./../img/cover/b2.jpg.jpg);
+/*background-image: url(./../img/cover/b2.jpg.jpg),linear-gradient(50deg,red,blue);*/
+	background-repeat:no-repeat;
+	background-position: center;
+
+
+	border:2px solid red;
+}

@@ -1,0 +1,140 @@
+.circle1,.circle2,.circle3,.circle4,.circle5{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+
+.circle1{
+	background:conic-gradient(red,orange,yellow);
+}
+
+.circle2{
+	background:conic-gradient(#488C4A,#486B8C,#88488C,#8C4853);
+}
+
+.circle3{
+	background:conic-gradient(rgba(245, 120, 145, 0.8),rgba(85, 124, 145, 0.8),rgba(51, 77, 51, 0.8),rgba(51, 32, 51, 0.8));	
+}
+
+.circle4{
+	background:conic-gradient(hsla(189, 96%, 50%, 1),hsla(146, 53%, 69%, 1),hsla(74, 82%, 84%, 1),hsla(311, 70%, 70%, 1));
+}
+
+.circle5{
+	background:conic-gradient(
+		red 40%,
+		orange 0% 50%,
+		blue 0% 60%,
+		green 0% 80%);		
+}	
+
+.circle6{
+	width:200px;
+	height:200px;
+	background:conic-gradient(
+	    red 20%,
+	    orange 0% 30%,
+	    blue 0% 50%,
+	    yellow 0% 100%);
+}
+
+.boxone{
+	width:600px;
+	height:300px;
+	background-color: green;
+
+
+	display:flex;
+/*	hz center*/
+	justify-content:center;
+/*	vt center*/
+	align-items:center;
+
+/*	display:grid;*/
+/*	place-items:center;*/
+
+    position:relative;
+
+}
+
+.boxone .div1{
+	width:300px;
+	height:300px;
+	background-color: #000;
+	color:#fff;
+	border-radius:50%;
+
+	position:absolute;
+	/*left:100px;	
+	top:0px;*/
+	z-index:10;	
+}
+
+.boxone .div2{
+	width:320px;
+	height:320px;
+/*	background:linear-gradient(red,yellow);*/
+   background:conic-gradient(
+   			red 0%,
+    		red 30%,
+    		blue 70%,
+    		red 0%,
+    		violet 80%,
+    		red 0%,
+    		pink 100%);
+	color:#fff;
+	border-radius:50%;
+
+	position:absolute;
+	/*left:0;
+	top:0;*/
+	z-index:1;
+}
+
+.pointercontainer{
+	width:20px;
+/*	height:150px;*/
+	height:200px;
+	background-color:gray;	
+
+	position:absolute;
+	top:-50px;
+/*	top:0;	*/
+	z-index:30;	
+
+	animation-name:myani;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+
+	transform-origin:bottom	;
+}
+
+.pointer{
+	width:20px;
+	height:20px;
+	background-color:red;
+	border-radius:50%;
+
+   display:block;
+
+}
+
+@keyframes myani{
+	from{
+		transform:rotate(0deg);
+	}
+
+	to{
+		transform:rotate(360deg);
+	}
+
+	/*0%{
+		transform:rotate(0deg);
+	}
+
+	100%{
+		transform:rotate(-2turn);
+	}*/	
+}
+

@@ -1,0 +1,69 @@
+=>git
+
+=One times
+after git install
+git
+git --version        ( git version 2.39.2 )
+
+git config --global user.name "Htet Myat Aung"
+git config user.name
+
+git config --global user.email "knowledgeofage9923@gmail.com"
+git config user.email
+
+
+=>SSH ( Secure Shell )
+
+ssh -keygen
+enter 3 time
+
+ssh -T git@github.com      (Hi knowledgeofage! You've successfully authenticated, but GitHub does not provide shell access.)
+
+
+=>github
+(1 project 1 times)
+git init
+git remote add origin "git@github.com:knowledgeofage/pttproject.git"
+
+
+(as to you)
+git status
+git add -A                    ( git add * )
+git status
+git commit -m "my first project"
+git status
+git push -u origin master
+
+
+
+=>Update
+git status
+git add -A
+git status
+git commit -m "title modified 12/march/22"
+git status
+git push -u origin master
+
+
+--------------------------------------------
+
+Download
+Zip file
+
+
+Download
+=>Clone
+git clone "git@github.com:knowledgeofage/pttproject.git"
+
+Download
+=>Pull
+create folder
+git init
+git remote add origin  "git@github.com:knowledgeofage/pttproject.git"
+git pull origin master 
+
+-----------------------------------------------------
+
+12FN
+
+

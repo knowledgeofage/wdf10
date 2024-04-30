@@ -1,0 +1,22 @@
+.textalign{
+/*	text-align:center;*/
+	text-align:justify;
+	text-aligb:right	;
+}
+.textdecoration{
+/*	text-decoration:underline;*/
+/*	text-decoration:overline;*/
+	text-decotation:line through ;
+}
+a{
+	text-decoration:none	;
+}
+.textline{
+/*	letter-spacing:3px;*/
+line-height:30px;
+/*line-height:30;*/
+}
+.textshadow{
+/*   text-shadow: -2px -5px 6px blue;*/
+text-shadow: -10px 0px 6px #5C2EA6,0px 4px 3px red,0px -4px 2px green;
+}

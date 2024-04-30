@@ -1,0 +1,24 @@
+h2{
+	color:blue;
+}
+h3,h4{
+	colr:steelblue;
+	font-size:30px;
+}
+h5{
+	color:gold;
+	font-size:40px;
+}
+
+#myself,#tha{
+	     color:green;
+}
+/*class seletor*/
+
+.phone{
+	color:red;
+}
+
+.size{
+	font-size:30px;
+}
